@@ -1,3 +1,11 @@
+```markdown
+**Project:** Gesture Recognition System  
+**Maintainer:** Bibek Poudel <bp2376@nyu.edu>  
+**Quick start:** Build with Mbed and flash to STM32F49I Discovery board.  
+**License:** MIT (see LICENSE file if present)  
+
+---
+
 # Gesture Recognition System
 
 ## Overview
@@ -52,17 +60,17 @@ The project consists of the following:
 
 ## Setup Instructions
 1. Clone the repository:
-        ```bash
-        git clone https://github.com/bk-poudel/gesture-recognition-system.git](https://github.com/bk-poudel/Real_Time_Embedded_Systems_Project.git
-        cd RTES_FINAL_Project
-        ```
+```bash
+git clone https://github.com/bk-poudel/Real_Time_Embedded_Systems_Project.git
+cd RTES_FINAL_Project
+```
 2. Compile the code using the Mbed framework.
 3. Flash the compiled binary to the target hardware.
 
 ## Usage
-1. The system records the gesture while booting up. So, you can record new gesture by pressing the reset button
-2. To perform the gesture press blue button (in stm32f49i board), and strat performing the gesture
-3. If the gesture matches the red led will turn off, otherwise the red LED will be on.
+1. The system records the gesture while booting up. You can record a new gesture by pressing the reset button.
+2. To perform the gesture press blue button (on the stm32f49i board), and start performing the gesture.
+3. If the gesture matches the reference, the red LED will turn off; otherwise the red LED will be on.
 
 ## Contributors
 - Bibek Poudel
@@ -70,4 +78,6 @@ The project consists of the following:
 - Akshay Parihalkar
 
 ## License
-This project is licensed under the MIT License. Gesture Recognition System
+This project is licensed under the MIT License.
+
+````
